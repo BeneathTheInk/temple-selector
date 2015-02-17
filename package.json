@@ -1,0 +1,49 @@
+{
+	"name": "temple-selector",
+	"version": "1.0.0",
+	"description": "A Temple plugin that converts CSS selectors into Temple Elements.",
+	"author": "Beneath the Ink <info@beneaththeink.com>",
+	"contributors": [
+		{
+			"name": "Tyler Johnson",
+			"email": "tyler@beneaththeink.com",
+			"url": "http://github.com/tyler-johnson"
+		}
+	],
+	"publishConfig": {
+		"registry": "http://registry.npmjs.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BeneathTheInk/temple-selector.git"
+	},
+	"scripts": {
+		"dev": "node test/browser",
+		"test": "./node_modules/.bin/mocha test"
+	},
+	"main": "./lib/index.js",
+	"dependencies": {
+		"templejs": "~0.4.0"
+	},
+	"devDependencies": {
+		"chai": "~2.0.0",
+		"grunt": "~0.4.5",
+		"grunt-browserify": "~3.3.0",
+		"grunt-contrib-clean": "~0.6.0",
+		"grunt-contrib-copy": "~0.7.0",
+		"grunt-contrib-uglify": "~0.7.0",
+		"grunt-contrib-watch": "~0.6.1",
+		"grunt-copy": "~0.1.0",
+		"grunt-peg": "~1.5.0",
+		"grunt-wait": "~0.1.0",
+		"grunt-wrap2000": "~0.1.0",
+		"minimist": "~1.1.0",
+		"mocha": "~2.1.0"
+	},
+	"license": "MIT",
+	"keywords": [
+		"temple",
+		"css",
+		"selector"
+	]
+}
